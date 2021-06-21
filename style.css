@@ -5,5 +5,22 @@ h1 {
 body {
 	background-color: Black;
 	color: White;
-		
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+
+a:link {
+	text-decoration: none;
+	color: Blue;
+}
+
+
+a:visited {
+	text-decoration: none;
+	color: LightBlue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: LightBlue;
 }
