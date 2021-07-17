@@ -38,3 +38,9 @@ a:hover {
 	text-decoration: underline;
 	color: LightBlue;
 }
+
+.tempGif {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
