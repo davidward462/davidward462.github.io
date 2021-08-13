@@ -23,6 +23,19 @@ body {
 	margin-right: 50px;	
 }
 
+.intro {
+	margin-top: 50px;
+}
+
+.aboutMe {
+	margin-top: 75px;
+}
+
+.stories {
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
 a:link {
 	text-decoration: none;
 	color: LightSkyBlue;
@@ -37,4 +50,10 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 	color: LightBlue;
+}
+
+.tempGif {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
