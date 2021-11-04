@@ -52,8 +52,14 @@ a:hover {
 	color: LightBlue;
 }
 
-.tempGif {
+.centerGif {
 	display: block;
 	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftGif {
+	display: block;
+	margin-left: 50;
 	margin-right: auto;
 }
