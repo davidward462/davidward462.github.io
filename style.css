@@ -63,3 +63,9 @@ a:hover {
 	margin-left: 50;
 	margin-right: auto;
 }
+
+.rightGif {
+	display: block;
+	margin-left: auto;
+	margin-right: 50;
+}
