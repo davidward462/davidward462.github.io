@@ -15,6 +15,10 @@ p {
 	font-size: 22px;
 }
 
+pre {
+	font-size: 22px;
+}
+
 body {
 	background-color: Black;
 	color: White;
@@ -34,6 +38,15 @@ body {
 .stories {
 	margin-top: 75px;
 	margin-bottom: 100px;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.code {
+	margin-bottom: 50px;
 }
 
 a:link {
