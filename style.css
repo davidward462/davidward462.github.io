@@ -24,7 +24,7 @@ body {
 	color: White;
 	margin-top: 50px;
 	margin-left: 50px;
-	margin-right: 50px;	
+	margin-right: 50px;
 }
 
 .intro {
@@ -38,6 +38,15 @@ body {
 .stories {
 	margin-top: 75px;
 	margin-bottom: 100px;
+}
+
+.prose {
+	background-color: Black;
+	color: White;
+	margin-top: 50px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 200px;		
 }
 
 .footer {
