@@ -27,6 +27,11 @@ body {
 	margin-right: 50px;
 }
 
+code {
+	font-family: "Lucida Console", "Courier New", "Monospace";
+	white-space: pre;
+}
+
 .intro {
 	margin-top: 50px;
 }
