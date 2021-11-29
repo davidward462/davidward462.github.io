@@ -28,6 +28,7 @@ body {
 }
 
 code {
+	color: rgb(0, 255, 0);
 	font-family: "Lucida Console", "Courier New", "Monospace";
 	white-space: pre;
 }
