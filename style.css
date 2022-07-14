@@ -20,7 +20,7 @@ pre {
 }
 
 body {
-	background-color: rgb(255, 255, 255);
+	background-color: black;
 	color: White;
 	margin-top: 50px;
 	margin-left: 50px;
@@ -29,13 +29,13 @@ body {
 }
 
 .floating_box {
-    background-color: white;
+    background-color: black;
     padding-left: 10px;
     /* width: 300px; */
-    border: 2px black;
+    border: 2px rgb(255, 255, 255);
     border-style: solid;
     margin: 2px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgb(71, 71, 71);
 }
 
 code {
