@@ -19,33 +19,39 @@ pre {
 	font-size: 22px;
 }
 
+.title {
+	color: white;
+	font-family: monospace;
+	/* font-family: Arial, Helvetica, sans-serif; */
+}
+
 body {
 	background-color: black;
-	color: White;
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	color: white;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating_box {
     background-color: black;
+	
     padding-left: 10px;
     /* width: 300px; */
     border: 2px rgb(255, 255, 255);
     border-style: solid;
-    margin: 2px;
-    box-shadow: 12px 12px 2px 1px rgb(71, 71, 71);
+    margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	font-family: monospace;
+    box-shadow: 12px 12px 2px 1px rgb(33, 45, 80);
 }
 
-code {
+code { /* There is an html tag <code>*/
 	color: rgb(0, 255, 0);
 	font-family: "Lucida Console", "Courier New", monospace;
 	white-space: pre;
-}
-
-.title {
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro {
@@ -92,6 +98,7 @@ code {
 
 .footer {
 	margin-top: 50px;
+	margin-left: 40px;
 	margin-bottom: 25px;
 }
 
