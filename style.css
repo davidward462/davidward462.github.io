@@ -36,16 +36,16 @@ body {
 
 .floating_box {
     background-color: black;
-	
+	text-align: left;
     padding-left: 10px;
     /* width: 300px; */
     border: 2px rgb(255, 255, 255);
     border-style: solid;
-    margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 50px;
+    margin-left: 260px;
+	margin-right: 260px;
+	margin-bottom: 70px;
 	font-family: monospace;
-    box-shadow: 12px 12px 2px 1px rgb(33, 45, 80);
+    box-shadow: 15px 15px 2px 1px rgb(40, 54, 97);
 }
 
 code { /* There is an html tag <code>*/
