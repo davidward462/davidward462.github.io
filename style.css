@@ -41,9 +41,12 @@ body {
     /* width: 300px; */
     border: 2px rgb(255, 255, 255);
     border-style: solid;
-    margin-left: 260px;
+    /*margin-left: 260px;
 	margin-right: 260px;
-	margin-bottom: 70px;
+	margin-bottom: 70px;*/
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-bottom: 25%;
 	font-family: monospace;
     box-shadow: 15px 15px 2px 1px rgb(40, 54, 97);
 }
