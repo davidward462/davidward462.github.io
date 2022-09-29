@@ -57,6 +57,29 @@ code { /* There is an html tag <code>*/
 	white-space: pre;
 }
 
+body {
+	background-color: black;
+	color:white;
+	word-wrap: normal;
+}
+	
+pre { /** <pre> tag removes the need for paragraph tags to separate paragraphs. **/
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	
+	font-family: "serif";
+	font-size: 22px;
+	}
+
+.prose_div {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .writing {
 	margin-bottom: 100px;
 	text-align: center;
