@@ -56,12 +56,6 @@ code { /* There is an html tag <code>*/
 	font-family: "Lucida Console", "Courier New", monospace;
 	white-space: pre;
 }
-
-body {
-	background-color: black;
-	color:white;
-	word-wrap: normal;
-}
 	
 pre { /** <pre> tag removes the need for paragraph tags to separate paragraphs. **/
 	overflow-x: auto;
@@ -71,14 +65,9 @@ pre { /** <pre> tag removes the need for paragraph tags to separate paragraphs. 
 	white-space: -o-pre-wrap;
 	word-wrap: break-word;
 	
-	font-family: "serif";
+	font-family: "Times New Roman", Times, serif;
 	font-size: 22px;
 	}
-
-.prose_div {
-	margin-right: auto;
-	margin-left: auto;
-}
 
 .writing {
 	margin-bottom: 100px;
