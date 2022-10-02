@@ -115,12 +115,11 @@ a:link {
 
 a:visited {
 	text-decoration: none;
-	color: LightBlue;
+	color: LightSkyBlue;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: LightBlue;
 }
 
 .centerGif {
