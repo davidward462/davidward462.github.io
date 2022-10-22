@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1>Vim configuration</h1>
+
+	<div class="floating_box">
+		<br>
+
+		<p>My current configuration:</p>
+		<code>
+set bg=dark
+set hlsearch
+set incsearch
+
+" set tab width to 4 spaces
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+set expandtab
+set autoindent
+
+set nocompatible
+syntax on
+set fileformat=unix
+set number
+colorscheme desert
+
+"Enable autocomplete
+set wildmode=longest,list,full
+
+" Set split window to be on the right
+set splitbelow splitright
+
+" Highlight current line in a dark grey (232), highlight current line number in light blue (074)
+set cursorline
+highlight CursorLine ctermfg=NONE ctermbg=232 cterm=NONE
+highlight CursorLineNr ctermfg=black ctermbg=074 cterm=NONE
+		</code>
+
+	</div class="floating_box">
+
+	<footer><p><a href="index.html">home</a></p></footer>
+
+</body>
+
+</html>
