@@ -13,7 +13,9 @@
 		<br>
 
 		<p>My current configuration:</p>
-		<code>
+
+    <button type="button" onClick="copyEvent('copy')">Copy</button>
+		<code id="copy">
 set bg=dark
 set hlsearch
 set incsearch
@@ -42,12 +44,22 @@ set splitbelow splitright
 set cursorline
 highlight CursorLine ctermfg=NONE ctermbg=232 cterm=NONE
 highlight CursorLineNr ctermfg=black ctermbg=074 cterm=NONE
-		</code>
-
+</code>
 	</div class="floating_box">
 
 	<footer><p><a href="index.html">home</a></p></footer>
 
 </body>
+
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+    }
+</script>
+
 
 </html>
